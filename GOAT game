@@ -9,7 +9,7 @@ screen = pygame.display.set_mode(SCREEN_SIZE)
 pygame.display.set_caption('Nazwa_Gry')
 
 #postać
-player_image = pygame.image.load('C:/Users/kubab/Projekty Python/Gierunia/dinozaur/vita_00.png')
+player_image = pygame.image.load('dinozaur/vita_00.png')
 player_x = 300
 
 #platforms
@@ -33,7 +33,7 @@ while running:
 
     #background
     screen.fill((0, 0, 0))
-    background = pygame.image.load('C:/Users/kubab/Projekty Python/Gierunia/backgrounds/hallow.jpg')
+    background = pygame.image.load('backgrounds/hallow.jpg')
     screen.blit(background, (0,0))
 
     #drawing platforms
